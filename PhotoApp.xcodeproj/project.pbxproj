@@ -18,6 +18,7 @@
 		8632D38024A2224A009D1820 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8632D37F24A2224A009D1820 /* PhotoCell.swift */; };
 		8632D38424A2238A009D1820 /* NewtorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8632D38324A2238A009D1820 /* NewtorkManager.swift */; };
 		8632D38624A243B7009D1820 /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8632D38524A243B7009D1820 /* Url.swift */; };
+		863908D0263AFEA500722AEB /* ExtensionImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863908CF263AFEA500722AEB /* ExtensionImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		8632D37F24A2224A009D1820 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		8632D38324A2238A009D1820 /* NewtorkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewtorkManager.swift; sourceTree = "<group>"; };
 		8632D38524A243B7009D1820 /* Url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Url.swift; sourceTree = "<group>"; };
+		863908CF263AFEA500722AEB /* ExtensionImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionImageView.swift; sourceTree = "<group>"; };
 		9A432B8AE48B8FFC0C7FD552 /* Pods_PhotoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2365963392C177E8525F5AA /* Pods-AlamofireApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireApp.debug.xcconfig"; path = "Target Support Files/Pods-AlamofireApp/Pods-AlamofireApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D95747A150F2CF8288094303 /* Pods-PhotoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoApp.release.xcconfig"; path = "Target Support Files/Pods-PhotoApp/Pods-PhotoApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,8 +124,17 @@
 				8610E8FD24A28D9500BB5ABC /* ViewCotrollers */,
 				8610E8FE24A28DB200BB5ABC /* Models */,
 				8610E8FF24A28DBB00BB5ABC /* Storyboards */,
+				863908D3263AFEE600722AEB /* Extensions */,
 			);
 			path = PhotoApp;
+			sourceTree = "<group>";
+		};
+		863908D3263AFEE600722AEB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				863908CF263AFEA500722AEB /* ExtensionImageView.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		86644D7824A4709A008B0330 /* SupportingFiles */ = {
@@ -273,6 +284,7 @@
 				8632D38624A243B7009D1820 /* Url.swift in Sources */,
 				8632D37C24A21D23009D1820 /* PhotosCollectionViewController.swift in Sources */,
 				8632D36824A21B15009D1820 /* AppDelegate.swift in Sources */,
+				863908D0263AFEA500722AEB /* ExtensionImageView.swift in Sources */,
 				8632D38024A2224A009D1820 /* PhotoCell.swift in Sources */,
 				8610E8FB24A2882E00BB5ABC /* PhotoViewController.swift in Sources */,
 				8632D38424A2238A009D1820 /* NewtorkManager.swift in Sources */,

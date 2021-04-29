@@ -11,11 +11,16 @@ import UIKit
 class PhotoViewController: UIViewController {
 
     @IBOutlet var imageView: UIImageView!
-    
+	@IBOutlet var activityIndicator: UIActivityIndicatorView!
+	
     var urlPhoto: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+		imageView.enableZoom()
+		activityIndicator.startAnimating()
+		activityIndicator.hidesWhenStopped = true
 
         DispatchQueue.global().async {
             guard let stringURL = self.urlPhoto else { return }
@@ -24,6 +29,7 @@ class PhotoViewController: UIViewController {
             
             DispatchQueue.main.async {
                 self.imageView.image = UIImage(data: imageData)
+				self.activityIndicator.stopAnimating()
             }
         }
     }

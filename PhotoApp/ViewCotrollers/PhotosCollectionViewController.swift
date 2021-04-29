@@ -14,7 +14,7 @@ class PhotosCollectionViewController: UICollectionViewController {
     // MARK: - Private propertys
     private var images: [URLS] = []
     private var itemsPerRow: CGFloat = 2
-    private let sectionInserts = UIEdgeInsets(top: 1, left: 1, bottom: 1, right: 1)
+    private let sectionInserts = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
     private var timer: Timer?
     private var page = 1
     private var orderBy = OrderBy.latest
